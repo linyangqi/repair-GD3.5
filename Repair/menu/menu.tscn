@@ -1,0 +1,113 @@
+[gd_scene load_steps=14 format=2]
+
+[ext_resource path="res://theme/fonts/FZYTK.TTF" type="DynamicFontData" id=1]
+[ext_resource path="res://menu/change_scene_button.gd" type="Script" id=2]
+[ext_resource path="res://menu/exit_button.gd" type="Script" id=3]
+[ext_resource path="res://theme/fonts/font_large.tres" type="DynamicFont" id=4]
+[ext_resource path="res://menu/menu_buttongroup.tres" type="ButtonGroup" id=6]
+
+[sub_resource type="DynamicFont" id=8]
+size = 60
+outline_size = 4
+outline_color = Color( 0.403922, 0.403922, 0.403922, 1 )
+font_data = ExtResource( 1 )
+
+[sub_resource type="Theme" id=9]
+default_font = SubResource( 8 )
+
+[sub_resource type="Gradient" id=6]
+colors = PoolColorArray( 1, 1, 1, 1, 0, 0, 0, 1 )
+
+[sub_resource type="GradientTexture" id=7]
+gradient = SubResource( 6 )
+
+[sub_resource type="InputEventAction" id=1]
+action = "enter"
+
+[sub_resource type="ShortCut" id=2]
+shortcut = SubResource( 1 )
+
+[sub_resource type="InputEventAction" id=5]
+action = "quit"
+
+[sub_resource type="ShortCut" id=4]
+shortcut = SubResource( 5 )
+
+[node name="Menu" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+theme = SubResource( 9 )
+__meta__ = {
+"_edit_lock_": true
+}
+
+[node name="TextureRect" type="TextureRect" parent="."]
+modulate = Color( 1, 1, 1, 0.360784 )
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = SubResource( 7 )
+expand = true
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+anchor_left = 1.0
+anchor_top = 0.5
+anchor_right = 1.0
+anchor_bottom = 0.5
+margin_left = -335.0
+margin_top = -71.0
+margin_right = -203.0
+margin_bottom = 83.0
+__meta__ = {
+"_edit_group_": true
+}
+
+[node name="Start" type="Button" parent="VBoxContainer"]
+margin_right = 132.0
+margin_bottom = 75.0
+shortcut_in_tooltip = false
+shortcut = SubResource( 2 )
+group = ExtResource( 6 )
+text = "开始"
+flat = true
+script = ExtResource( 2 )
+scene_path = "res://main/main.tscn"
+
+[node name="Exit" type="Button" parent="VBoxContainer"]
+margin_top = 79.0
+margin_right = 132.0
+margin_bottom = 154.0
+shortcut_in_tooltip = false
+shortcut = SubResource( 4 )
+group = ExtResource( 6 )
+text = "退出"
+flat = true
+script = ExtResource( 3 )
+
+[node name="Title" type="Label" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -376.0
+margin_top = 85.0
+margin_right = -176.0
+margin_bottom = 313.0
+custom_fonts/font = ExtResource( 4 )
+text = "修"
+
+[node name="Title2" type="Label" parent="."]
+anchor_left = 1.0
+anchor_right = 1.0
+margin_left = -350.0
+margin_top = 313.0
+margin_right = -198.0
+margin_bottom = 382.0
+text = "Repair"
+
+[node name="Author" type="LinkButton" parent="."]
+anchor_top = 1.0
+anchor_bottom = 1.0
+margin_top = -105.0
+margin_right = 1047.0
+text = "作者：林扬骐（@机器人白黑白）"
+underline = 2
+script = ExtResource( 2 )
+scene_path = "res://menu/links/my_links.tscn"
