@@ -1,4 +1,4 @@
-extends Button
+extends BaseButton
 
 func _pressed():
 	if OS.get_name() != "HTML5" :

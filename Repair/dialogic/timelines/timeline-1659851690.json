@@ -1,0 +1,95 @@
+{
+	"events": [
+		{
+			"background": "res://images/background/bg_day1.png",
+			"event_id": "dialogic_021"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "……"
+		},
+		{
+			"emit_signal": "wbw_wakeup",
+			"event_id": "dialogic_040"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "eye_close",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…………"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "wakeup_2",
+			"text": "…………"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "wakeup_8",
+			"text": "…………？"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "!",
+			"text": "！！！"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_up",
+			"text": "这里……[pause=1]是什么地方……？"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_down",
+			"text": "我记得上次关机前……是发生了什么事情吗……？[pause=0.5]想不起来了……[pause=0.5]连下网试试？"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "TAT",
+			"text": "该死，现在检查不到任何网络信号……我的记忆数据可都在云端呢！"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_front",
+			"text": "不管了，找找周围有没有其他人吧……"
+		},
+		{
+			"change_scene": "res://levels/day1/day1.tscn",
+			"event_id": "dialogic_041"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.3",
+		"file": "timeline-1659851690.json",
+		"name": "preface"
+	}
+}

@@ -1,0 +1,57 @@
+{
+	"color": "#ffffffff",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1659838820.json",
+	"mirror_portraits": false,
+	"name": "白黑白",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 120,
+	"offset_y": -50,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://images/sprites/wbw/idle/wbw-sprite_idle_1.png"
+		},
+		{
+			"name": "eye_down",
+			"path": "res://images/sprites/wbw/eye/wbw-sprite_eye_2.png"
+		},
+		{
+			"name": "eye_up",
+			"path": "res://images/sprites/wbw/eye/wbw-sprite_eye_6.png"
+		},
+		{
+			"name": "eye_front",
+			"path": "res://images/sprites/wbw/eye/wbw-sprite_eye_4.png"
+		},
+		{
+			"name": "!",
+			"path": "res://images/sprites/wbw/event/wbw-sprite_event_1.png"
+		},
+		{
+			"name": "?",
+			"path": "res://images/sprites/wbw/event/wbw-sprite_event_2.png"
+		},
+		{
+			"name": "eye_close",
+			"path": "res://images/sprites/wbw/wakeup/wbw-sprite_wakeup_1.png"
+		},
+		{
+			"name": "wakeup_2",
+			"path": "res://images/sprites/wbw/wakeup/wbw-sprite_wakeup_2.png"
+		},
+		{
+			"name": "wakeup_8",
+			"path": "res://images/sprites/wbw/wakeup/wbw-sprite_wakeup_8.png"
+		},
+		{
+			"name": "TAT",
+			"path": "res://images/sprites/wbw/TAT/wbw-sprite_TAT_1.png"
+		}
+	],
+	"scale": 200,
+	"theme": "theme-1659837891.cfg"
+}

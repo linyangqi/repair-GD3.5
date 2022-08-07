@@ -1,0 +1,49 @@
+{
+	"color": "#ffafafaf",
+	"description": "",
+	"display_name": "WBWfurry",
+	"display_name_bool": false,
+	"id": "character-1659827580.json",
+	"mirror_portraits": false,
+	"name": "小黑兽",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 230,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://images/avatars/wbwfurry/idle/动画_idle_1.png"
+		},
+		{
+			"name": "sad",
+			"path": "res://images/avatars/wbwfurry/sad/动画_sad_1.png"
+		},
+		{
+			"name": "happy1",
+			"path": "res://images/avatars/wbwfurry/happy/动画_happy_1.png"
+		},
+		{
+			"name": "happy2",
+			"path": "res://images/avatars/wbwfurry/happy2/动画_happy2_2.png"
+		},
+		{
+			"name": "angry",
+			"path": "res://images/avatars/wbwfurry/angry/动画_angry_1.png"
+		},
+		{
+			"name": "eye_2",
+			"path": "res://images/avatars/wbwfurry/eye/动画_eye_2.png"
+		},
+		{
+			"name": "eye_3",
+			"path": "res://images/avatars/wbwfurry/eye/动画_eye_3.png"
+		},
+		{
+			"name": "eye_4",
+			"path": "res://images/avatars/wbwfurry/eye/动画_eye_4.png"
+		}
+	],
+	"scale": 400,
+	"theme": "theme-1659837891.cfg"
+}
