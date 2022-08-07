@@ -1,10 +1,6 @@
 {
 	"events": [
 		{
-			"background": "res://images/background/bg_day1.png",
-			"event_id": "dialogic_021"
-		},
-		{
 			"character": "",
 			"event_id": "dialogic_001",
 			"portrait": "",
@@ -80,7 +76,7 @@
 			"character": "character-1659838820.json",
 			"event_id": "dialogic_001",
 			"portrait": "eye_front",
-			"text": "不管了，找找周围有没有其他人吧……"
+			"text": "不管了，找找周围有没有其他机器人吧……"
 		},
 		{
 			"change_scene": "res://levels/day1/day1.tscn",

@@ -1,9 +1,11 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://theme/ui_theme.tres" type="Theme" id=1]
 [ext_resource path="res://images/background/bg_day1.png" type="Texture" id=2]
 [ext_resource path="res://theme/fonts/font_large.tres" type="DynamicFont" id=3]
 [ext_resource path="res://levels/preface/preface.gd" type="Script" id=4]
+[ext_resource path="res://menu/change_scene_button.gd" type="Script" id=5]
+[ext_resource path="res://menu/menu_buttongroup.tres" type="ButtonGroup" id=6]
 
 [sub_resource type="Animation" id=2]
 length = 0.001
@@ -35,6 +37,12 @@ tracks/0/keys = {
 "update": 0,
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
+
+[sub_resource type="InputEventAction" id=3]
+action = "enter"
+
+[sub_resource type="ShortCut" id=4]
+shortcut = SubResource( 3 )
 
 [node name="Preface" type="Control"]
 anchor_right = 1.0
@@ -69,5 +77,19 @@ text = "序章"
 wait_time = 4.0
 one_shot = true
 autostart = true
+
+[node name="Skip" type="LinkButton" parent="."]
+margin_left = 607.0
+margin_top = 7.0
+margin_right = 627.0
+margin_bottom = 19.0
+focus_mode = 2
+shortcut_in_tooltip = false
+shortcut = SubResource( 4 )
+group = ExtResource( 6 )
+text = "跳过"
+underline = 2
+script = ExtResource( 5 )
+scene_path = "res://levels/day1/day1.tscn"
 
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

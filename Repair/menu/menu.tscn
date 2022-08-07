@@ -5,14 +5,14 @@
 [ext_resource path="res://menu/menu_buttongroup.tres" type="ButtonGroup" id=3]
 [ext_resource path="res://theme/fonts/font_large.tres" type="DynamicFont" id=4]
 [ext_resource path="res://menu/repair.png" type="Texture" id=5]
-[ext_resource path="res://menu/SkipAnimation.gd" type="Script" id=6]
+[ext_resource path="res://tools/SkipAnimation.gd" type="Script" id=6]
 [ext_resource path="res://menu/change_scene_button.gd" type="Script" id=7]
 
-[sub_resource type="InputEventAction" id=1]
+[sub_resource type="InputEventAction" id=12]
 action = "enter"
 
 [sub_resource type="ShortCut" id=2]
-shortcut = SubResource( 1 )
+shortcut = SubResource( 12 )
 
 [sub_resource type="InputEventAction" id=5]
 action = "quit"
@@ -232,7 +232,7 @@ group = ExtResource( 3 )
 text = "开始"
 underline = 2
 script = ExtResource( 7 )
-scene_path = "res://levels/day1/day1.tscn"
+scene_path = "res://levels/preface/preface.tscn"
 
 [node name="Exit" type="LinkButton" parent="VBoxContainer"]
 margin_top = 16.0

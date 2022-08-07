@@ -60,6 +60,5 @@ animations = [ {
 
 [node name="WBWSprite" type="AnimatedSprite"]
 frames = SubResource( 1 )
-animation = "wakeup"
-frame = 8
+animation = "idle"
 playing = true

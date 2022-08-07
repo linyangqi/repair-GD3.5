@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=2]
+[gd_scene load_steps=5 format=2]
 
 [ext_resource path="res://images/background/bg_day1.png" type="Texture" id=1]
 [ext_resource path="res://characters/wbw/wbw.tscn" type="PackedScene" id=2]
+[ext_resource path="res://tools/StageChanger.gd" type="Script" id=3]
 
 [sub_resource type="TileSet" id=1]
 
@@ -29,4 +30,9 @@ fall_max_speed = 200.0
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 position = Vector2( -2, -26.3572 )
 scale = Vector2( 2.00934, 2.18237 )
-polygon = PoolVector2Array( 1, 155, 34, 159, 173, 158, 190, 155, 216, 156, 221, 158, 255, 159, 283, 163, 319, 168, 320, 179, 0, 179 )
+polygon = PoolVector2Array( -0.995352, 155.041, 34, 159, 172.694, 156.874, 190, 155, 216, 156, 221, 158, 255, 159, 283, 163, 319.01, 166.955, 336.927, 169.246, 337.922, 179.327, -5.47444, 179.327, -1.9907, 91.349 )
+
+[node name="StageChanger" type="Node" parent="."]
+script = ExtResource( 3 )
+
+[connection signal="arrive_right" from="wbw" to="StageChanger" method="_on_wbw_arrive_right"]
