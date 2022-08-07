@@ -3,13 +3,17 @@ extends Player
 
 signal arrive_left
 signal arrive_right
-signal arrive_up
-signal arrive_down
+signal arrive_above
+signal arrive_below
+
+signal number_signal(number)
+var signal_number := 0
 
 onready var sprite = $Sprite
-var stage_height = ProjectSettings.get_setting("display/window/size/height")
-var stage_width = ProjectSettings.get_setting("display/window/size/width")
-
+onready var global = $"/root/Global"
+onready var stage_changer = $"../StageChanger"
+onready var stage_height = stage_changer.stage_height
+onready var stage_width = stage_changer.stage_width
 
 
 func _process(delta):
@@ -23,12 +27,24 @@ func _process(delta):
 	if position.x < 0:
 		emit_signal("arrive_left")
 	if position.x > stage_width:
-		emit_signal("arrive_left")
+		emit_signal("arrive_right")
 	if position.y < 0:
 		emit_signal("arrive_up")
 	if position.y > stage_height:
 		emit_signal("arrive_down")
 
-func _physics_process(delta):
-	
-	pass
+func _input(event):
+	if event.is_action_pressed("emit_signal"):
+		sprite.animation = "signal"
+		signal_number = 0
+		
+	if event.is_action_released("emit_signal"):
+		sprite.animation = "idle"
+		if signal_number >= 1:
+			emit_signal("number_signal", signal_number)
+		
+
+
+func _on_Sprite_animation_finished():
+	if sprite.animation == "signal":
+		signal_number += 1
