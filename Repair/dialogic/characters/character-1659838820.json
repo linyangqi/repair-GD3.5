@@ -50,6 +50,14 @@
 		{
 			"name": "TAT",
 			"path": "res://images/sprites/wbw/TAT/wbw-sprite_TAT_1.png"
+		},
+		{
+			"name": "happy",
+			"path": "res://images/sprites/wbw/happy/wbw-sprite_happy_1.png"
+		},
+		{
+			"name": "angry",
+			"path": "res://images/sprites/wbw/angry/wbw-sprite_angry_1.png"
 		}
 	],
 	"scale": 200,

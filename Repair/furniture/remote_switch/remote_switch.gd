@@ -4,8 +4,9 @@ signal switch
 onready var require = $Require
 onready var display = $Display
 
-
-export(Array,int) var command := [1] #ps：命令中的数字必须大于0才能被激活
+#ps：命令中的数字必须大于0才能被激活
+# 或者……0只有在某些机关处可以被激活？
+export(Array,int) var command := [1,2] 
 var point = 0
 
 func _ready():

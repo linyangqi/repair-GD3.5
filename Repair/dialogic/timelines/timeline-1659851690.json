@@ -14,6 +14,7 @@
 			"animation": "[Default]",
 			"animation_length": 0,
 			"change_mirror_portrait": false,
+			"change_position": false,
 			"change_z_index": false,
 			"character": "character-1659838820.json",
 			"event_id": "dialogic_002",
@@ -64,7 +65,7 @@
 			"character": "character-1659838820.json",
 			"event_id": "dialogic_001",
 			"portrait": "eye_down",
-			"text": "我记得上次关机前……是发生了什么事情吗……？[pause=0.5]想不起来了……[pause=0.5]连下网试试？"
+			"text": "我记得上次关机前……是发生了什么事情吗……？[pause=0.5]想不起来了……[pause=0.5]连接网络试试？"
 		},
 		{
 			"character": "character-1659838820.json",
@@ -76,7 +77,7 @@
 			"character": "character-1659838820.json",
 			"event_id": "dialogic_001",
 			"portrait": "eye_front",
-			"text": "不管了，找找周围有没有其他机器人吧……"
+			"text": "不管了，找找周围有没有什么线索吧……"
 		},
 		{
 			"change_scene": "res://levels/day1/day1.tscn",

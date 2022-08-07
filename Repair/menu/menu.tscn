@@ -35,7 +35,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Title:modulate")
+tracks/1/path = NodePath("Title/Title2:modulate")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -47,7 +47,7 @@ tracks/1/keys = {
 "values": [ Color( 1, 1, 1, 1 ) ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Title/Title2:modulate")
+tracks/2/path = NodePath("Title:modulate")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -123,7 +123,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 tracks/1/type = "value"
-tracks/1/path = NodePath("Title:modulate")
+tracks/1/path = NodePath("Title/Title2:modulate")
 tracks/1/interp = 1
 tracks/1/loop_wrap = true
 tracks/1/imported = false
@@ -135,7 +135,7 @@ tracks/1/keys = {
 "values": [ Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 tracks/2/type = "value"
-tracks/2/path = NodePath("Title/Title2:modulate")
+tracks/2/path = NodePath("Title:modulate")
 tracks/2/interp = 1
 tracks/2/loop_wrap = true
 tracks/2/imported = false
@@ -224,8 +224,8 @@ __meta__ = {
 }
 
 [node name="Start" type="LinkButton" parent="VBoxContainer"]
-margin_right = 38.0
-margin_bottom = 12.0
+margin_right = 40.0
+margin_bottom = 23.0
 shortcut_in_tooltip = false
 shortcut = SubResource( 2 )
 group = ExtResource( 3 )
@@ -235,9 +235,9 @@ script = ExtResource( 7 )
 scene_path = "res://levels/preface/preface.tscn"
 
 [node name="Exit" type="LinkButton" parent="VBoxContainer"]
-margin_top = 16.0
-margin_right = 38.0
-margin_bottom = 28.0
+margin_top = 27.0
+margin_right = 40.0
+margin_bottom = 50.0
 shortcut_in_tooltip = false
 shortcut = SubResource( 4 )
 group = ExtResource( 3 )
@@ -269,10 +269,10 @@ text = "Repair"
 [node name="Author" type="LinkButton" parent="."]
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_left = 5.0
-margin_top = -16.0
-margin_right = 74.0
-margin_bottom = -4.0
+margin_left = 9.0
+margin_top = -32.0
+margin_right = 146.0
+margin_bottom = -9.0
 text = "Credit: 戈多战队"
 underline = 2
 script = ExtResource( 7 )

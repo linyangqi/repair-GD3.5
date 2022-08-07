@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/wbw-sprite.png-8d7077c7c2043aa359d2dca9d1d321b4.stex"
+path="res://.import/戈多战队.jpg-9679d9885a6f1d8624cfec9444d1ec33.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://images/sprites/wbw/wbw-sprite.png"
-dest_files=[ "res://.import/wbw-sprite.png-8d7077c7c2043aa359d2dca9d1d321b4.stex" ]
+source_file="res://menu/links/戈多战队.jpg"
+dest_files=[ "res://.import/戈多战队.jpg-9679d9885a6f1d8624cfec9444d1ec33.stex" ]
 
 [params]
 

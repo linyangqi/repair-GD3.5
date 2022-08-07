@@ -49,45 +49,32 @@
 				"timeline-1659836092.json"
 			],
 			"folders": {
-				"day1": {
+				"story": {
 					"files": [
 
 					],
 					"folders": {
+						"preface": {
+							"files": [
+								"timeline-1659851690.json"
+							],
+							"folders": {
 
+							},
+							"metadata": {
+								"color": null,
+								"folded": false
+							}
+						}
 					},
 					"metadata": {
 						"color": null,
 						"folded": false
 					}
 				},
-				"day2": {
+				"tips": {
 					"files": [
-
-					],
-					"folders": {
-
-					},
-					"metadata": {
-						"color": null,
-						"folded": false
-					}
-				},
-				"day3": {
-					"files": [
-
-					],
-					"folders": {
-
-					},
-					"metadata": {
-						"color": null,
-						"folded": false
-					}
-				},
-				"preface": {
-					"files": [
-						"timeline-1659851690.json"
+						"timeline-1659880411.json"
 					],
 					"folders": {
 

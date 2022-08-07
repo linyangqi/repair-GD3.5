@@ -1,0 +1,40 @@
+[gd_scene load_steps=7 format=2]
+
+[ext_resource path="res://furniture/remote_switch/remote_switch.tscn" type="PackedScene" id=1]
+[ext_resource path="res://furniture/obstacles/door/door.gd" type="Script" id=2]
+[ext_resource path="res://images/furniture/trapdoor/trapdoor_2.png" type="Texture" id=3]
+[ext_resource path="res://images/furniture/trapdoor/trapdoor_1.png" type="Texture" id=4]
+
+[sub_resource type="SegmentShape2D" id=2]
+a = Vector2( -32, 1 )
+b = Vector2( 34, 1 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 4 ) ],
+"loop": true,
+"name": "closed",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "open",
+"speed": 5.0
+} ]
+
+[node name="TrapDoor" type="StaticBody2D"]
+script = ExtResource( 2 )
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+shape = SubResource( 2 )
+
+[node name="RemoteSwitch" parent="." instance=ExtResource( 1 )]
+position = Vector2( 2, -23 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+position = Vector2( 0, 14 )
+scale = Vector2( 1.5, 1.5 )
+frames = SubResource( 3 )
+animation = "closed"
+
+[connection signal="switch" from="RemoteSwitch" to="." method="_on_RemoteSwitch_switch"]

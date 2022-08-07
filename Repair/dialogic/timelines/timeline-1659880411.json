@@ -1,0 +1,95 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "TAT",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "TAT",
+			"text": "这扇门挡了我的去路……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "!",
+			"text": "不过……[pause=0.5]等一下……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_up",
+			"text": "…………"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_down",
+			"text": "本地资料没有存错的话……[pause=0.5]这种门应该可以通过无线信号来进行开关。"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "wakeup_2",
+			"text": "hmmmm……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "其实我也是可以发送无线信号哒~"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "长按空格键（手机则是右侧“信号按钮”）让WBW发出信号，WBW发送信号的动画[wave amp=30 freq=2][color=#A5EFAC]完整地[/color][/wave]循环几次，就代表发送数字几。"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "如，按下按键，让WBW循环播放3次信号动画后，松开按键，则发送信号数字3。"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "需要注意的是，在同一个场景中，所有能接收信号的机关或设备，都会同时接收你发出的信号。"
+		},
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "如果信号代码有一处不符，它们将会清除已接收的代码，重新记录信号。"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_front",
+			"text": "现在，咱就来打开这扇门吧~"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.3",
+		"file": "timeline-1659880411.json",
+		"name": "use_signal"
+	}
+}

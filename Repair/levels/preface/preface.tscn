@@ -66,12 +66,13 @@ anchor_left = 0.5
 anchor_top = 0.5
 anchor_right = 0.5
 anchor_bottom = 0.5
-margin_left = -30.0
-margin_top = -17.5
-margin_right = 30.0
-margin_bottom = 17.5
+margin_left = -50.0
+margin_top = -29.0
+margin_right = 50.0
+margin_bottom = 29.0
 custom_fonts/font = ExtResource( 3 )
 text = "序章"
+align = 1
 
 [node name="Timer" type="Timer" parent="."]
 wait_time = 4.0
@@ -79,6 +80,7 @@ one_shot = true
 autostart = true
 
 [node name="Skip" type="LinkButton" parent="."]
+visible = false
 margin_left = 607.0
 margin_top = 7.0
 margin_right = 627.0

@@ -1,0 +1,21 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://theme/ui_theme.tres" type="Theme" id=1]
+[ext_resource path="res://tools/tip/tip.gd" type="Script" id=2]
+
+[node name="Tip" type="LinkButton"]
+visible = false
+margin_left = 12.0
+margin_top = 6.0
+margin_right = 32.0
+margin_bottom = 18.0
+theme = ExtResource( 1 )
+text = "提示"
+underline = 2
+script = ExtResource( 2 )
+
+[node name="TipTime" type="Timer" parent="."]
+wait_time = 10.0
+one_shot = true
+
+[connection signal="timeout" from="TipTime" to="." method="_on_TipTime_timeout"]
