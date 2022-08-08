@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=2]
+[gd_scene load_steps=12 format=2]
 
 [ext_resource path="res://theme/ui_theme.tres" type="Theme" id=1]
 [ext_resource path="res://images/background/bg_day1.png" type="Texture" id=2]
@@ -6,6 +6,7 @@
 [ext_resource path="res://levels/end/end.gd" type="Script" id=4]
 [ext_resource path="res://menu/change_scene_button.gd" type="Script" id=5]
 [ext_resource path="res://menu/menu_buttongroup.tres" type="ButtonGroup" id=6]
+[ext_resource path="res://music/change_music.tscn" type="PackedScene" id=7]
 
 [sub_resource type="Animation" id=2]
 length = 0.001
@@ -93,5 +94,8 @@ text = "跳过"
 underline = 2
 script = ExtResource( 5 )
 scene_path = "res://levels/day1/day1.tscn"
+
+[node name="Music" parent="." instance=ExtResource( 7 )]
+music_id = 4
 
 [connection signal="timeout" from="Timer" to="." method="_on_Timer_timeout"]

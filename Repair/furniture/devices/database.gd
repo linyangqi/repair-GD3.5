@@ -1,5 +1,5 @@
 
-extends Node2D
+extends Area2D
 
 export(Array,int) var password := [1,3] 
 export var active := false
@@ -29,6 +29,8 @@ func switch_update(active):
 	collision.disabled = !active
 	if active:
 		sprite.animation = "on"
+		if overlaps_body(wbw):
+			add_child(dialogue)
 	else:
 		sprite.animation = "off"
 

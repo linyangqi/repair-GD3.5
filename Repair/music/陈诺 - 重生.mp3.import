@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/陈诺 - 重生.mp3-9dffac9a1b026744fd523fa60a6e5973.mp3str"
+
+[deps]
+
+source_file="res://music/陈诺 - 重生.mp3"
+dest_files=[ "res://.import/陈诺 - 重生.mp3-9dffac9a1b026744fd523fa60a6e5973.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

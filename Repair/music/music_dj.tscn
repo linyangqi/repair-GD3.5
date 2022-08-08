@@ -1,9 +1,22 @@
-[gd_scene load_steps=2 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://music/唤醒.mp3" type="AudioStream" id=1]
+[ext_resource path="res://music/music_dj.gd" type="Script" id=2]
+[ext_resource path="res://music/陈诺 - 回忆.mp3" type="AudioStream" id=3]
+[ext_resource path="res://music/陈诺 - 重生.mp3" type="AudioStream" id=4]
+[ext_resource path="res://music/心海澎湃.mp3" type="AudioStream" id=5]
 
 [node name="MusicDJ" type="Node"]
+script = ExtResource( 2 )
 
 [node name="1" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 1 )
-autoplay = true
+
+[node name="2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+
+[node name="3" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 4 )
+
+[node name="4" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )

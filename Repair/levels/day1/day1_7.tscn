@@ -1,4 +1,4 @@
-[gd_scene load_steps=10 format=2]
+[gd_scene load_steps=11 format=2]
 
 [ext_resource path="res://images/background/bg_day1.png" type="Texture" id=1]
 [ext_resource path="res://characters/wbw/wbw.tscn" type="PackedScene" id=2]
@@ -9,6 +9,7 @@
 [ext_resource path="res://furniture/obstacles/door/door.tscn" type="PackedScene" id=7]
 [ext_resource path="res://furniture/obstacles/elevator/elevator.tscn" type="PackedScene" id=8]
 [ext_resource path="res://furniture/obstacles/trapdoor/trapdoor.tscn" type="PackedScene" id=9]
+[ext_resource path="res://music/change_music.tscn" type="PackedScene" id=10]
 
 [node name="Node2D" type="Node"]
 
@@ -17,6 +18,9 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 texture = ExtResource( 1 )
 expand = true
+__meta__ = {
+"_edit_lock_": true
+}
 
 [node name="Ground" type="StaticBody2D" parent="."]
 
@@ -33,62 +37,660 @@ stage_right = "res://levels/end/end.tscn"
 [node name="Static" type="Node" parent="."]
 
 [node name="Floor2" parent="Static" instance=ExtResource( 5 )]
-position = Vector2( 77, 132 )
+position = Vector2( 553, 91 )
+rotation = 1.57079
+scale = Vector2( 7, 1 )
 
 [node name="Floor3" parent="Static" instance=ExtResource( 5 )]
-position = Vector2( 75, 46 )
+position = Vector2( 154, 220 )
+rotation = 1.57079
+scale = Vector2( 8, 1 )
+
+[node name="Floor4" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 154, 220 )
+rotation = 1.57079
+scale = Vector2( 8, 1 )
+
+[node name="Floor9" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 80, 47 )
+rotation = 1.57079
+scale = Vector2( 3.48, 1 )
+
+[node name="Floor10" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 32, 183 )
+rotation = 1.57079
+scale = Vector2( 3.48, 1 )
+
+[node name="Floor11" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 61, 213 )
+rotation = 3.16432
+scale = Vector2( 0.895799, 0.663249 )
+
+[node name="Floor5" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 229, 62 )
+rotation = 1.57079
+scale = Vector2( 5.88, 1 )
+
+[node name="Floor6" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 307, 224 )
+rotation = 1.57079
+scale = Vector2( 8, 1 )
+
+[node name="Floor7" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 387, 61 )
+rotation = 1.57079
+scale = Vector2( 8, 1 )
+
+[node name="Floor8" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 474, 248 )
+rotation = 1.57079
+scale = Vector2( 8, 1 )
 
 [node name="Furniture" type="Node" parent="."]
 script = ExtResource( 6 )
 
 [node name="Door" parent="Furniture" instance=ExtResource( 7 )]
-position = Vector2( 109, 128 )
+position = Vector2( 553, 328 )
+password = [ 1, 2, 1 ]
+
+[node name="Door2" parent="Furniture" instance=ExtResource( 7 )]
+position = Vector2( 227, 245 )
+scale = Vector2( 0.687562, 0.747321 )
 password = [ 1, 2, 1 ]
 
 [node name="Elevator" parent="Furniture" instance=ExtResource( 8 )]
-position = Vector2( 236, 299 )
-rotation = -0.261799
-password = [ 2, 1 ]
-motion = Vector2( 0, -80 )
+position = Vector2( 96, 312 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator4" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 95, 259 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator5" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 96, 204 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator6" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 132, 225 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator12" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 130, 153 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator10" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 96, 187 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator7" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 134, 297 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator8" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 133, 274 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator14" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 99, 40 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1, 1 ]
+motion = Vector2( 0, 80 )
+
+[node name="Elevator15" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 174, 313 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1, 1, 2 ]
+motion = Vector2( 0, -280 )
+
+[node name="Elevator11" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 131, 172 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator9" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 132, 241 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator2" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 251, 300 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator13" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 250, 247 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator16" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 251, 192 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator17" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 287, 213 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator18" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 285, 141 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator19" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 251, 175 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator20" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 289, 285 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator21" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 288, 262 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator22" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 286, 160 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator23" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 287, 229 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator24" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 413, 311 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator25" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 412, 258 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator26" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 413, 203 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator27" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 449, 224 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator28" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 447, 152 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator29" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 413, 186 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator30" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 451, 296 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator31" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 450, 273 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator32" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 448, 171 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator33" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 449, 240 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator44" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 497, 231 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator45" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 496, 178 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator46" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 497, 123 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator47" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 533, 144 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator48" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 531, 72 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator49" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 447, 118 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 80, 0 )
+
+[node name="Elevator50" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 535, 216 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator51" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 534, 193 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator52" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 532, 91 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator53" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 533, 160 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator54" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 498, 301 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator55" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 498, 255 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator56" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 499, 200 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator58" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 536, 270 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator34" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 332, 313 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator35" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 331, 260 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator36" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 332, 205 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator37" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 368, 226 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator38" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 366, 154 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator39" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 332, 188 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator40" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 370, 298 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator41" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 411, 275 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 3 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator42" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 367, 173 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator43" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 368, 242 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator60" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 330, 120 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator61" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 329, 67 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator62" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 366, 33 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator63" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 368, 105 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator64" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 367, 82 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator65" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 366, 49 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator66" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 330, 120 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator67" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 329, 67 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator68" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 366, 33 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator69" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 368, 105 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator70" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 367, 82 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator72" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 245, 121 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator73" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 211, 155 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator74" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 246, 140 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
+
+[node name="Elevator75" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 209, 87.0001 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator76" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 208, 34 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( 40, 0 )
+
+[node name="Elevator77" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 247, 72 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 1 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator78" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 246, 49 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -40, 0 )
+
+[node name="Elevator71" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 366, 49 )
+rotation = -0.000696301
+scale = Vector2( 0.490329, 0.594984 )
+password = [ 2 ]
+motion = Vector2( -80, 0 )
 
 [node name="Elevator3" parent="Furniture" instance=ExtResource( 8 )]
-position = Vector2( 596, 260 )
+position = Vector2( 604, 97 )
 rotation = -0.261799
 password = [ 2 ]
 motion = Vector2( 0, -170 )
 
-[node name="Elevator2" parent="Furniture" instance=ExtResource( 8 )]
-position = Vector2( 504, 71 )
-rotation = -0.156759
-password = [ 1, 2 ]
-motion = Vector2( -240, 0 )
+[node name="Elevator57" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 601, 145 )
+rotation = -0.261799
+password = [ 2 ]
+motion = Vector2( 0, -170 )
+
+[node name="Elevator79" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 601, 145 )
+rotation = -0.261799
+password = [ 3 ]
+motion = Vector2( 0, -170 )
+
+[node name="Elevator80" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 604, 184 )
+rotation = -0.261799
+password = [ 3 ]
+motion = Vector2( 0, -170 )
+
+[node name="Elevator81" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 604, 184 )
+rotation = -0.261799
+password = [ 3 ]
+motion = Vector2( 0, -170 )
 
 [node name="Database" parent="Furniture" instance=ExtResource( 4 )]
-position = Vector2( 72, 283 )
+position = Vector2( 588, 294 )
 password = [ 1, 1, 1 ]
 dialogue_timeline = "memory5"
 
 [node name="TrapDoor" parent="Furniture" instance=ExtResource( 9 )]
-position = Vector2( 455, 199 )
-password = [ 1, 2 ]
-
-[node name="TrapDoor2" parent="Furniture" instance=ExtResource( 9 )]
-position = Vector2( 343, 214 )
-rotation = 0.523598
-password = [ 1 ]
+position = Vector2( 116, 121 )
+__meta__ = {
+"_edit_lock_": true
+}
+password = [ 1, 1, 1 ]
 
 [node name="TrapDoor3" parent="Furniture" instance=ExtResource( 9 )]
-position = Vector2( 180, 116 )
-rotation = -0.699121
-password = [ 1 ]
+position = Vector2( 516, 260 )
+password = [ 1, 2 ]
+
+[node name="TrapDoor4" parent="Furniture" instance=ExtResource( 9 )]
+position = Vector2( 346, 208 )
+password = [ 1, 1 ]
+
+[node name="TrapDoor5" parent="Furniture" instance=ExtResource( 9 )]
+position = Vector2( 194, 188 )
+password = [ 2, 2 ]
+
+[node name="TrapDoor6" parent="Furniture" instance=ExtResource( 9 )]
+position = Vector2( 266, 137 )
+password = [ 1, 2 ]
 
 [node name="wbw" parent="." instance=ExtResource( 2 )]
 unique_name_in_owner = true
-position = Vector2( 29, 249 )
+position = Vector2( 20, 280 )
 run_max_speed = 100.0
 jump_max_height = 40.0
 jump_cut_height = 20.0
 fall_max_speed = 200.0
+
+[node name="Music" parent="." instance=ExtResource( 10 )]
+music_id = 3
 
 [connection signal="arrive_left" from="wbw" to="StageChanger" method="_on_wbw_arrive_left"]
 [connection signal="arrive_right" from="wbw" to="StageChanger" method="_on_wbw_arrive_right"]
