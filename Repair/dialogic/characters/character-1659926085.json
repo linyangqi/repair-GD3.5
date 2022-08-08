@@ -1,0 +1,93 @@
+{
+	"color": "#ffffa700",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1659926085.json",
+	"mirror_portraits": true,
+	"name": "NANA",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 130,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://images/sprites/nana/idle/nana-sprite_idle_1.png"
+		},
+		{
+			"name": "nana-sprite_happy_1",
+			"path": "res://images/sprites/nana/happy/nana-sprite_happy_1.png"
+		},
+		{
+			"name": "nana-sprite_event_1",
+			"path": "res://images/sprites/nana/event/nana-sprite_event_1.png"
+		},
+		{
+			"name": "nana-sprite_event_2",
+			"path": "res://images/sprites/nana/event/nana-sprite_event_2.png"
+		},
+		{
+			"name": "nana-sprite_angry_1",
+			"path": "res://images/sprites/nana/angry/nana-sprite_angry_1.png"
+		},
+		{
+			"name": "nana-sprite_TAT_1",
+			"path": "res://images/sprites/nana/TAT/nana-sprite_TAT_1.png"
+		},
+		{
+			"name": "nana-sprite_TAT_2",
+			"path": "res://images/sprites/nana/TAT/nana-sprite_TAT_2.png"
+		},
+		{
+			"name": "nana-sprite_TAT_3",
+			"path": "res://images/sprites/nana/TAT/nana-sprite_TAT_3.png"
+		},
+		{
+			"name": "nana-sprite_TAT_4",
+			"path": "res://images/sprites/nana/TAT/nana-sprite_TAT_4.png"
+		},
+		{
+			"name": "nana-sprite_wakeup_2",
+			"path": "res://images/sprites/nana/wakeup/nana-sprite_wakeup_2.png"
+		},
+		{
+			"name": "nana-sprite_wakeup_6",
+			"path": "res://images/sprites/nana/wakeup/nana-sprite_wakeup_6.png"
+		},
+		{
+			"name": "nana-sprite_wakeup_8",
+			"path": "res://images/sprites/nana/wakeup/nana-sprite_wakeup_8.png"
+		},
+		{
+			"name": "nana-sprite_wakeup_9",
+			"path": "res://images/sprites/nana/wakeup/nana-sprite_wakeup_9.png"
+		},
+		{
+			"name": "nana-sprite_eye_2",
+			"path": "res://images/sprites/nana/eye/nana-sprite_eye_2.png"
+		},
+		{
+			"name": "nana-sprite_eye_3",
+			"path": "res://images/sprites/nana/eye/nana-sprite_eye_3.png"
+		},
+		{
+			"name": "nana-sprite_eye_4",
+			"path": "res://images/sprites/nana/eye/nana-sprite_eye_4.png"
+		},
+		{
+			"name": "nana-sprite_eye_5",
+			"path": "res://images/sprites/nana/eye/nana-sprite_eye_5.png"
+		},
+		{
+			"name": "nana-sprite_eye_6",
+			"path": "res://images/sprites/nana/eye/nana-sprite_eye_6.png"
+		},
+		{
+			"name": "nana-sprite_happy_2",
+			"path": "res://images/sprites/nana/happy/nana-sprite_happy_2.png"
+		}
+	],
+	"scale": 200,
+	"theme": ""
+}

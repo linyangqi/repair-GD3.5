@@ -1,0 +1,100 @@
+[gd_scene load_steps=10 format=2]
+
+[ext_resource path="res://images/background/bg_day1.png" type="Texture" id=1]
+[ext_resource path="res://characters/wbw/wbw.tscn" type="PackedScene" id=2]
+[ext_resource path="res://tools/StageChanger.gd" type="Script" id=3]
+[ext_resource path="res://furniture/devices/database.tscn" type="PackedScene" id=4]
+[ext_resource path="res://furniture/obstacles/floor/floor.tscn" type="PackedScene" id=5]
+[ext_resource path="res://levels/day1/Furniture.gd" type="Script" id=6]
+[ext_resource path="res://furniture/obstacles/door/door.tscn" type="PackedScene" id=7]
+[ext_resource path="res://furniture/obstacles/elevator/elevator.tscn" type="PackedScene" id=8]
+[ext_resource path="res://furniture/obstacles/trapdoor/trapdoor.tscn" type="PackedScene" id=9]
+
+[node name="Node2D" type="Node"]
+
+[node name="TextureRect" type="TextureRect" parent="."]
+anchor_right = 1.0
+anchor_bottom = 1.0
+texture = ExtResource( 1 )
+expand = true
+
+[node name="Ground" type="StaticBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Ground"]
+position = Vector2( -2, -26.3572 )
+scale = Vector2( 2.00934, 2.18237 )
+polygon = PoolVector2Array( -6.46979, 154.583, 34, 159, 172.694, 156.874, 190, 155, 216, 156, 221, 158, 255, 159, 283, 163, 320.006, 165.122, 336.429, 166.497, 337.922, 179.327, -5.47444, 179.327 )
+
+[node name="StageChanger" type="Node" parent="."]
+script = ExtResource( 3 )
+stage_left = "res://levels/day1/day1_4.tscn"
+stage_right = "res://levels/day1/day1_6.tscn"
+
+[node name="Static" type="Node" parent="."]
+
+[node name="Floor2" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 77, 132 )
+
+[node name="Floor3" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 75, 46 )
+
+[node name="Floor4" parent="Static" instance=ExtResource( 5 )]
+position = Vector2( 20, 91 )
+rotation = 1.54943
+scale = Vector2( 1.88322, 1 )
+
+[node name="Furniture" type="Node" parent="."]
+script = ExtResource( 6 )
+
+[node name="Door" parent="Furniture" instance=ExtResource( 7 )]
+position = Vector2( 109, 128 )
+password = [ 1, 2, 1 ]
+
+[node name="Elevator" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 236, 299 )
+rotation = -0.261799
+password = [ 2, 1 ]
+motion = Vector2( 0, -80 )
+
+[node name="Elevator3" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 596, 260 )
+rotation = -0.261799
+password = [ 2 ]
+motion = Vector2( 0, -170 )
+
+[node name="Elevator2" parent="Furniture" instance=ExtResource( 8 )]
+position = Vector2( 504, 71 )
+rotation = -0.156759
+password = [ 1, 2 ]
+motion = Vector2( -240, 0 )
+
+[node name="Database" parent="Furniture" instance=ExtResource( 4 )]
+position = Vector2( 75, 90 )
+password = [ 1, 1, 1 ]
+dialogue_timeline = "memory3"
+
+[node name="TrapDoor" parent="Furniture" instance=ExtResource( 9 )]
+position = Vector2( 455, 199 )
+password = [ 1, 2 ]
+
+[node name="TrapDoor2" parent="Furniture" instance=ExtResource( 9 )]
+position = Vector2( 343, 214 )
+rotation = 0.523598
+password = [ 1 ]
+
+[node name="TrapDoor3" parent="Furniture" instance=ExtResource( 9 )]
+position = Vector2( 180, 116 )
+rotation = -0.699121
+password = [ 1 ]
+
+[node name="wbw" parent="." instance=ExtResource( 2 )]
+unique_name_in_owner = true
+position = Vector2( 29, 249 )
+run_max_speed = 100.0
+jump_max_height = 40.0
+jump_cut_height = 20.0
+fall_max_speed = 200.0
+
+[connection signal="arrive_left" from="wbw" to="StageChanger" method="_on_wbw_arrive_left"]
+[connection signal="arrive_right" from="wbw" to="StageChanger" method="_on_wbw_arrive_right"]
+[connection signal="number_signal" from="wbw" to="Furniture" method="_on_wbw_number_signal"]

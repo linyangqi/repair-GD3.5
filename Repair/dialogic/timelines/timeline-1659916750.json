@@ -111,6 +111,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "embarassed",
 			"text": "不过我怎么没觉得自己有那么厉害呢……[pause=0.5]话说科学和艺术又是啥来着……"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

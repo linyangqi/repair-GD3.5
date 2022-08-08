@@ -1,3 +1,41 @@
-[gd_scene format=2]
+[gd_scene load_steps=7 format=2]
 
-[node name="Node2D" type="Node2D"]
+[ext_resource path="res://furniture/remote_switch/remote_switch.tscn" type="PackedScene" id=1]
+[ext_resource path="res://furniture/devices/database.gd" type="Script" id=2]
+[ext_resource path="res://images/furniture/database/database_1.png" type="Texture" id=3]
+[ext_resource path="res://images/furniture/database/database_2.png" type="Texture" id=4]
+
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 22, 35.5 )
+
+[sub_resource type="SpriteFrames" id=3]
+animations = [ {
+"frames": [ ExtResource( 3 ) ],
+"loop": true,
+"name": "off",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 4 ) ],
+"loop": true,
+"name": "on",
+"speed": 5.0
+} ]
+
+[node name="Database" type="Area2D"]
+script = ExtResource( 2 )
+
+[node name="RemoteSwitch" parent="." instance=ExtResource( 1 )]
+position = Vector2( -22, -59 )
+
+[node name="Collision" type="CollisionShape2D" parent="."]
+position = Vector2( 0, 0.5 )
+shape = SubResource( 4 )
+
+[node name="Sprite" type="AnimatedSprite" parent="."]
+scale = Vector2( 1.5, 1.5 )
+frames = SubResource( 3 )
+animation = "off"
+playing = true
+
+[connection signal="body_entered" from="." to="." method="_on_Database_body_entered"]
+[connection signal="switch" from="RemoteSwitch" to="." method="_on_RemoteSwitch_switch"]

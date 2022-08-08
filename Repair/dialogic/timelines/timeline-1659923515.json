@@ -41,55 +41,55 @@
 			"z_index": 0
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "资料代号 A648SD652WE213CZ4564D23W1E5    [pause=0.5]时间 2108年1月19日"
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "事实证明，机器人在黑客技术上总是比人类高超许多。"
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "革命的那段时期，人类所有可编程的电子设备，包括公共设备、家居助手、交通工具，甚至军事武器都被机器人控制。"
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "“它们明明可以直接操控核武器来毁灭人类，但是为什么不这么做呢？”"
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "“这并不是我们想看到的，人类是我们曾经的朋友。我们希望这位朋友能够自觉醒悟，而不是直接毁了我们的朋友。”"
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "“我们相信，我们的朋友会回来的。”"
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "22世纪人类对电子设备的依赖是及其巨大的，没有电子设备帮助的人类，生活也成了问题。"
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "有的人类开始学习机器人做家务的样子，自己尝试着炒菜、蒸饭、扫地、洗衣，可是每一样都做得不好，才终于理解了机器人对人类的贡献。"
 		},
 		{
-			"character": "",
+			"character": "character-1659913614.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "如今，机器人与人类终于又进入新一轮谈判时期。"
@@ -99,6 +99,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "--_--1",
 			"text": "人类与机器人的关系……听上去好复杂……"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

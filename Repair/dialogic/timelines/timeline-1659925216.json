@@ -1,6 +1,348 @@
 {
 	"events": [
-
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "eye_front",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "资料代号 SD23A1D9C4XZ2W1EW231DSA    [pause=0.5]时间 2108年1月29日"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "就在谈判的过程中，地球对空探测器传来紧急消息："
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "一颗体积约有半个地球大的陨石正往地球飞来"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "人类科学家与机器科学家联合对策，计算陨石的质量、密度，最终决定使用核武器迫使陨石偏航。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "但是在计算之外的是，陨石受核弹爆炸冲击波偏航后，却又自己改变方向转向地球。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "——这根本不是陨石！而是一艘不明力量控制的外星无人战舰！"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "还好科学家早有预料，在30年前就为全人类撤离地球做好了准备。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "至于机器人……"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“没有关系，[pause=0.5]将我们的记忆传入云端，你们将云端也一起带走，也就是把我们也带上了。”"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "机器人们放弃了它们自己的身体，将它们留在地面，与地球坚守。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "而原本只为人类设计的撤离飞船，如今也腾出一些空间，装载上了存储机器人记忆的服务器。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "现在，人类和机器人都安全了……"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "飞船开走了。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "……"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "陨石飞来了。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "轰！"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "……"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "--_--1",
+			"text": "……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "embarassed",
+			"text": "？这就完了？"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "!",
+			"text": "！！"
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "您好，WBW型代号Zero，我是WBW代号NANA。"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "embarassed",
+			"text": "呃？我是代号Zero吗？"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "eye_front",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "如果你能看到这条信息，说明我们已经在另一个星球找到驻地了。"
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "不过，我想，人类应该还是会有想返回地球的希望，毕竟这里是几千年来生养它们的地方。"
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "是我为你设定的休眠程序，等待陨石导致的大气环境破坏缓和后醒来。"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": true,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": true,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "nana-sprite_eye_4",
+			"text": "那边存放着地球过去的环境信息、人类文化建设信息、以及各种生物DNA。"
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "另外也有根据这些东西还原地球原貌所用的设备与使用说明。"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": true,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "(Don't change)",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "Default",
+			"text": "还有有咱们WBW型机器人的设计图。"
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "nana-sprite_happy_1",
+			"text": "现在我希望你能与其他留在地球的机器人们一起，完成重建这颗星球的任务，恢复她原来的样貌。"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "--_--1",
+			"text": "“她”是谁啊？"
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "nana-sprite_happy_2",
+			"text": "地球的代称嘛……咱以前都用这个代词。"
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "nana-sprite_eye_4",
+			"text": "总之，你能完成任务吗？"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "我好像知道该怎么做了！保证完成任务！"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_up",
+			"text": "地球以前那么美好，我也想亲眼看看地球从前的样貌嘛~"
+		},
+		{
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_001",
+			"portrait": "nana-sprite_happy_1",
+			"text": "加油吧！愿博士保佑你！"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
+		}
 	],
 	"metadata": {
 		"dialogic-version": "1.4.3",

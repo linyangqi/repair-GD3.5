@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://images/background/bg_day1.png" type="Texture" id=1]
 [ext_resource path="res://characters/wbw/wbw.tscn" type="PackedScene" id=2]
 [ext_resource path="res://tools/StageChanger.gd" type="Script" id=3]
 [ext_resource path="res://tools/tip/tip.tscn" type="PackedScene" id=4]
 [ext_resource path="res://furniture/obstacles/door/door.tscn" type="PackedScene" id=5]
+[ext_resource path="res://levels/day1/Furniture.gd" type="Script" id=6]
 
 [node name="Node2D" type="Node"]
 
@@ -24,9 +25,12 @@ polygon = PoolVector2Array( -6.46979, 154.583, 34, 159, 172.694, 156.874, 190, 1
 [node name="StageChanger" type="Node" parent="."]
 script = ExtResource( 3 )
 stage_left = "res://levels/day1/day1.tscn"
-stage_right = "res://levels/day1/day1.tscn"
+stage_right = "res://levels/day1/day1_3.tscn"
 
-[node name="Door" parent="." instance=ExtResource( 5 )]
+[node name="Furniture" type="Node" parent="."]
+script = ExtResource( 6 )
+
+[node name="Door" parent="Furniture" instance=ExtResource( 5 )]
 position = Vector2( 329, 316 )
 
 [node name="wbw" parent="." instance=ExtResource( 2 )]
@@ -39,3 +43,7 @@ fall_max_speed = 200.0
 [node name="Tip" parent="." instance=ExtResource( 4 )]
 wait_time = 2
 dialogue_timeline = "/tips/use_signal"
+
+[connection signal="arrive_left" from="wbw" to="StageChanger" method="_on_wbw_arrive_left"]
+[connection signal="arrive_right" from="wbw" to="StageChanger" method="_on_wbw_arrive_right"]
+[connection signal="number_signal" from="wbw" to="Furniture" method="_on_wbw_number_signal"]

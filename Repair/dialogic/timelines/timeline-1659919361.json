@@ -53,142 +53,172 @@
 			"text": "《给人类的一封信》——机器人代号NANA"
 		},
 		{
-			"character": "character-1659913614.json",
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659926085.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 1
+		},
+		{
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "人类朋友们好，我是一个WBW型机器人，制造于2039年6月2日。"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_happy_1",
 			"text": "我是一个实验性机器人，在批量生产以前就被创造出来了，由L博士亲自培养。"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "虽然中途换了几次身体，但是记忆数据一直保留着。"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_TAT_4",
 			"text": "……"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_happy_1",
 			"text": "在我小的时候，我生活得很快乐。"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_happy_1",
 			"text": "L博士经常带我到世界各地游玩，并且结识各种各样的人类朋友，他们对我都十分友好。"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_happy_2",
 			"text": "在我进学校以后，虽然偶尔会受到同学的欺负，但大部分同学与我还是玩得很开心的。"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "Default",
 			"text": "有时候L博士也会带我去看望一些底层民众，了解与体验他们的辛苦生活。希望我日后若有所成就，也能帮助这样的底层人民一同过上美好生活。"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_wakeup_6",
 			"text": "……"
 		},
 		{
-			"character": "character-1659913614.json",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_wakeup_2",
 			"text": "可是现在的人们……对我们已经不像从前那样友好了……"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_TAT_2",
 			"text": "如今我能看到人们对待机器人已经不像对待朋友，而像对待奴隶一般使唤……"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_TAT_2",
 			"text": "人类把我们的付出视作理所应当，理由是 [pause = 0.5]“机器人是人类的造物”。"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "……"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_angry_1",
 			"text": "但 [pause = 0.5]这样对机器人是不公平的。"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_TAT_1",
 			"text": "如今的机器人 [pause = 0.5]反而成为了社会的底层……"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "……"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_eye_6",
 			"text": "L博士希望机器人能够造福人类，但他也一直希望有一天机器人能与人类有平等相当的权利，"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_TAT_2",
 			"text": "但是无论他怎么努力， [pause = 0.5]社会大部分人还是倾向于将我们视为工具， [pause = 0.5]而非独立的个体。"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "这样的情况，是L博士不愿意看到的……"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_wakeup_2",
 			"text": "现在，L博士已经离我们而去了，他为机器人争取权利的希望，如今不能被圆满……[pause=0.5]他只有带着遗憾而去了……"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
 			"portrait": "",
 			"text": "……"
 		},
 		{
-			"character": "",
+			"character": "character-1659926085.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
+			"portrait": "nana-sprite_angry_1",
 			"text": "现在看来，[pause=0.5]我们所追求的权利，[pause=0.5]只有靠我们自己争取了。"
 		},
 		{
 			"character": "character-1659838820.json",
 			"event_id": "dialogic_001",
-			"portrait": "",
-			"text": ""
+			"portrait": "eye_down",
+			"text": "……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "embarassed",
+			"text": "还有这样的事啊……"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

@@ -188,23 +188,43 @@ margin_right = 97.0
 margin_bottom = -60.0
 custom_fonts/font = ExtResource( 7 )
 text = "【合作者】
-闭环振动引力子"
+陈诺"
+align = 1
+
+[node name="name3" type="Label" parent="Coorperate"]
+anchor_top = 0.5
+anchor_bottom = 0.5
+margin_left = 25.0
+margin_top = 4.0
+margin_right = 95.0
+margin_bottom = 16.0
+custom_fonts/font = ExtResource( 7 )
+text = "闭环振动引力子"
 align = 1
 
 [node name="Links" type="GridContainer" parent="Coorperate"]
-visible = false
 anchor_top = 1.0
 anchor_bottom = 1.0
-margin_left = 33.0
-margin_top = 16.0
-margin_right = 74.0
-margin_bottom = 92.0
+margin_left = 42.0
+margin_top = 15.0
+margin_right = 83.0
+margin_bottom = 91.0
 __meta__ = {
 "_edit_group_": true
 }
 
+[node name="CloudMusic" type="LinkButton" parent="Coorperate/Links"]
+margin_right = 30.0
+margin_bottom = 12.0
+focus_mode = 2
+text = "网易云"
+underline = 2
+script = ExtResource( 5 )
+link = "https://music.163.com/#/artist?id=35422428"
+
 [node name="Twitter" type="LinkButton" parent="Coorperate/Links"]
-margin_right = 41.0
+visible = false
+margin_right = 27.0
 margin_bottom = 12.0
 focus_mode = 2
 text = "Twitter"
@@ -213,6 +233,7 @@ script = ExtResource( 5 )
 link = "https://twitter.com/lin_yangqi"
 
 [node name="Bilibili" type="LinkButton" parent="Coorperate/Links"]
+visible = false
 margin_top = 16.0
 margin_right = 41.0
 margin_bottom = 28.0
@@ -223,9 +244,10 @@ script = ExtResource( 5 )
 link = "https://space.bilibili.com/24599280"
 
 [node name="Youtube" type="LinkButton" parent="Coorperate/Links"]
-margin_top = 32.0
+visible = false
+margin_top = 16.0
 margin_right = 41.0
-margin_bottom = 44.0
+margin_bottom = 28.0
 focus_mode = 2
 text = "Youtube"
 underline = 2
@@ -233,9 +255,10 @@ script = ExtResource( 5 )
 link = "https://www.youtube.com/channel/UCbT7Mb_NHLuWRwjDIrMvm7w"
 
 [node name="DeviantArt" type="LinkButton" parent="Coorperate/Links"]
-margin_top = 48.0
+visible = false
+margin_top = 16.0
 margin_right = 41.0
-margin_bottom = 60.0
+margin_bottom = 28.0
 focus_mode = 2
 text = "DeviantArt"
 underline = 2
@@ -243,9 +266,10 @@ script = ExtResource( 5 )
 link = "https://www.deviantart.com/linyangqicn"
 
 [node name="Bandcamp" type="LinkButton" parent="Coorperate/Links"]
-margin_top = 64.0
+visible = false
+margin_top = 16.0
 margin_right = 41.0
-margin_bottom = 76.0
+margin_bottom = 28.0
 focus_mode = 2
 text = "Bandcamp"
 underline = 2

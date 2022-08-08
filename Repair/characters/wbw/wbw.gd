@@ -14,6 +14,8 @@ onready var global = $"/root/Global"
 onready var stage_changer = $"../StageChanger"
 onready var stage_height = stage_changer.stage_height
 onready var stage_width = stage_changer.stage_width
+onready var furniture = $"../Furniture"
+
 
 
 func _process(delta):
@@ -29,9 +31,9 @@ func _process(delta):
 	if position.x > stage_width:
 		emit_signal("arrive_right")
 	if position.y < 0:
-		emit_signal("arrive_up")
+		emit_signal("arrive_above")
 	if position.y > stage_height:
-		emit_signal("arrive_down")
+		emit_signal("arrive_below")
 
 func _input(event):
 	if event.is_action_pressed("emit_signal"):

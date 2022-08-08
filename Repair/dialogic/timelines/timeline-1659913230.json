@@ -74,7 +74,7 @@
 			"character": "character-1659838820.json",
 			"event_id": "dialogic_001",
 			"portrait": "eye_down",
-			"text": "4320年…… [pause=0.5]9月7日…… [pause=0.5]？"
+			"text": "2320年…… [pause=0.5]9月7日…… [pause=0.5]？"
 		},
 		{
 			"animation": "[Default]",
@@ -198,6 +198,10 @@
 			"event_id": "dialogic_001",
 			"portrait": "embarassed",
 			"text": "不过……它们都去哪儿了呢？"
+		},
+		{
+			"event_id": "dialogic_022",
+			"transition_duration": 1
 		}
 	],
 	"metadata": {

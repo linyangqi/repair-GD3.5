@@ -18,11 +18,11 @@ func _ready():
 	if global.switching_stage:
 		wbw.position = global.wbw_position
 		global.switching_stage = false
-		
-		wbw.connect("arrive_left", self, "_on_wbw_arrive_left")
-		wbw.connect("arrive_right", self, "_on_wbw_arrive_right")
-		wbw.connect("arrive_above", self, "_on_wbw_arrive_above")
-		wbw.connect("arrive_below", self, "_on_wbw_arrive_below")
+#
+#		wbw.connect("arrive_left", self, "_on_wbw_arrive_left")
+#		wbw.connect("arrive_right", self, "_on_wbw_arrive_right")
+#		wbw.connect("arrive_above", self, "_on_wbw_arrive_above")
+#		wbw.connect("arrive_below", self, "_on_wbw_arrive_below")
 
 
 func _on_wbw_arrive_left():
@@ -32,6 +32,7 @@ func _on_wbw_arrive_left():
 		get_tree().change_scene(stage_left)
 
 func _on_wbw_arrive_right():
+	
 	if stage_right != "":
 		global.switching_stage = true
 		global.wbw_position = wbw.position + Vector2(-stage_width,0)
