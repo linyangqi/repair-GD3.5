@@ -1,11 +1,11 @@
 {
-	"color": "#ffffffff",
+	"color": "#ffb0e1ff",
 	"description": "",
 	"display_name": "",
 	"display_name_bool": false,
 	"id": "character-1659838820.json",
 	"mirror_portraits": false,
-	"name": "白黑白",
+	"name": "小黑球",
 	"nickname": "",
 	"nickname_bool": false,
 	"offset_x": 120,
@@ -58,6 +58,18 @@
 		{
 			"name": "angry",
 			"path": "res://images/sprites/wbw/angry/wbw-sprite_angry_1.png"
+		},
+		{
+			"name": "embarassed",
+			"path": "res://images/sprites/wbw/TAT/wbw-sprite_TAT_2.png"
+		},
+		{
+			"name": "--_--1",
+			"path": "res://images/sprites/wbw/TAT/wbw-sprite_TAT_3.png"
+		},
+		{
+			"name": "--_--2",
+			"path": "res://images/sprites/wbw/TAT/wbw-sprite_TAT_4.png"
 		}
 	],
 	"scale": 200,

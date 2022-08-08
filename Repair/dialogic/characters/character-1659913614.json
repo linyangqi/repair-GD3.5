@@ -1,0 +1,21 @@
+{
+	"color": "#fffc7593",
+	"description": "",
+	"display_name": "",
+	"display_name_bool": false,
+	"id": "character-1659913614.json",
+	"mirror_portraits": false,
+	"name": "数据库",
+	"nickname": "",
+	"nickname_bool": false,
+	"offset_x": 180,
+	"offset_y": 0,
+	"portraits": [
+		{
+			"name": "Default",
+			"path": "res://images/furniture/database/database_2.png"
+		}
+	],
+	"scale": 200,
+	"theme": ""
+}

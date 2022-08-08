@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://theme/ui_theme.tres" type="Theme" id=1]
 [ext_resource path="res://menu/exit_button.gd" type="Script" id=2]
@@ -7,6 +7,7 @@
 [ext_resource path="res://menu/repair.png" type="Texture" id=5]
 [ext_resource path="res://tools/SkipAnimation.gd" type="Script" id=6]
 [ext_resource path="res://menu/change_scene_button.gd" type="Script" id=7]
+[ext_resource path="res://theme/fonts/font2-half-large.tres" type="DynamicFont" id=8]
 
 [sub_resource type="InputEventAction" id=12]
 action = "enter"
@@ -215,10 +216,10 @@ anchor_left = 0.941
 anchor_top = 0.5
 anchor_right = 1.0
 anchor_bottom = 0.5
-margin_left = -36.12
-margin_top = -17.0
-margin_right = -35.0
-margin_bottom = 11.0
+margin_left = -50.24
+margin_top = -24.0
+margin_right = -48.0
+margin_bottom = 26.0
 __meta__ = {
 "_edit_group_": true
 }
@@ -226,6 +227,7 @@ __meta__ = {
 [node name="Start" type="LinkButton" parent="VBoxContainer"]
 margin_right = 40.0
 margin_bottom = 23.0
+custom_fonts/font = ExtResource( 8 )
 shortcut_in_tooltip = false
 shortcut = SubResource( 2 )
 group = ExtResource( 3 )
@@ -238,6 +240,7 @@ scene_path = "res://levels/preface/preface.tscn"
 margin_top = 27.0
 margin_right = 40.0
 margin_bottom = 50.0
+custom_fonts/font = ExtResource( 8 )
 shortcut_in_tooltip = false
 shortcut = SubResource( 4 )
 group = ExtResource( 3 )
@@ -248,23 +251,25 @@ script = ExtResource( 2 )
 [node name="Title" type="Label" parent="."]
 anchor_left = 1.0
 anchor_right = 1.0
-margin_left = -78.0
-margin_top = 38.0
-margin_right = -48.0
-margin_bottom = 73.0
+margin_left = -97.0
+margin_top = 39.0
+margin_right = -47.0
+margin_bottom = 97.0
 custom_fonts/font = ExtResource( 4 )
-text = "修"
+text = "信"
 
 [node name="Title2" type="Label" parent="Title"]
 anchor_left = 0.5
 anchor_top = 1.0
 anchor_right = 0.5
 anchor_bottom = 1.0
-margin_left = -12.0
-margin_top = 2.0
-margin_right = 12.0
-margin_bottom = 14.0
-text = "Repair"
+margin_left = -26.0
+margin_top = 1.0
+margin_right = 28.0
+margin_bottom = 24.0
+custom_fonts/font = ExtResource( 8 )
+text = "believe"
+align = 1
 
 [node name="Author" type="LinkButton" parent="."]
 anchor_top = 1.0
@@ -273,6 +278,7 @@ margin_left = 9.0
 margin_top = -32.0
 margin_right = 146.0
 margin_bottom = -9.0
+custom_fonts/font = ExtResource( 8 )
 text = "Credit: 戈多战队"
 underline = 2
 script = ExtResource( 7 )

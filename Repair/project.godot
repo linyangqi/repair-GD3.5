@@ -110,7 +110,7 @@ _global_script_class_icons={
 
 [application]
 
-config/name="Repair"
+config/name="信-Believe"
 run/main_scene="res://menu/menu.tscn"
 config/icon="res://icon.png"
 

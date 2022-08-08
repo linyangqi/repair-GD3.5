@@ -1,0 +1,41 @@
+{
+	"events": [
+		{
+			"character": "",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "[color=#FF6666]【数据库未激活，禁止访问】"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": true,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "embarassed",
+			"text": "需要发送信号[wave amp=30 freq=2][color=#A5EFAC]激活[/color][/wave]数据库，才有权限访问里面的信息呢。"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.3",
+		"file": "timeline-1659912513.json",
+		"name": "database_off"
+	}
+}

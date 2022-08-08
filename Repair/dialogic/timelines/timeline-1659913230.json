@@ -1,0 +1,208 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "【数据库已激活，允许访问】"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "happy",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "(Don't change)",
+			"text": "可以查看数据库里的信息啦~ [pause=0.5]来看看里面有些什么吧~"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "…………"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "资料代号 3S5FE147XAX-6H525DRGH    [pause=0.5]时间 2043年7月9日"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "--_--1",
+			"text": "话说咱现在是哪年啊……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_down",
+			"text": "4320年…… [pause=0.5]9月7日…… [pause=0.5]？"
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_position": false,
+			"change_z_index": false,
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "eye_front",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 2,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "机器人代号WBW功能测验完毕，正式投入小批量生产。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "作为通用人工智能机器人的一员，WBW的智能实现方式却与其他大部分人工智能的实现方式不同。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "当时全球大部分人工智能的实现方式是，从网络抓取大量信息，投入深度学习神经网络进行训练。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "而WBW的训练方式却是，在现实中从头进行学习训练。 [pause=0.5]包括语言功能，也是逐字逐句学起。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "有人曾质疑，这样的训练方式来训练人工智能，过程十分漫长，很难有成效，也很难有快速的经济回报。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "而使用网络数据进行训练的人工智能在当时可是十分火热，只要算力足够，加上网络上足够多的数据，训练出的AI很容易在它所在的领域一举由小白升为专家。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "WBW创造者 L博士 的回应则是："
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“网络数据我们往后也可以用，但是一定要让人工智能有在现实中学习的过程。”"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“因为传在网络上的数据往往是碎片的、零散的、去中心化的，”"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“而我们人类在现实中的学习则几乎总是连续的，系统的，个性化的。”"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“并且只有在现实中，机器才能真正理解人类所在的世界，从而理解人类，融入人类。”"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "“我相信，在现实中体验过生活的机器人，一定能够超越仅仅在数据中游荡的神经网络智能。至少我是这么相信的。”"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "--_--2",
+			"text": "hmmmmm……[pause=0.5]人类？"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_down",
+			"text": "本地资料库倒是有存储关于人类的信息……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_front",
+			"text": "……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_up",
+			"text": "……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "embarassed",
+			"text": "不过……它们都去哪儿了呢？"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.3",
+		"file": "timeline-1659913230.json",
+		"name": "memory1"
+	}
+}

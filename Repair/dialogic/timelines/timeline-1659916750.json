@@ -1,0 +1,121 @@
+{
+	"events": [
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "eye_front",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": false,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"animation": "[Default]",
+			"animation_length": 0,
+			"change_mirror_portrait": false,
+			"change_z_index": false,
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_002",
+			"mirror_portrait": false,
+			"portrait": "Default",
+			"portrait_definition": "",
+			"position": {
+				"0": false,
+				"1": false,
+				"2": true,
+				"3": false,
+				"4": false
+			},
+			"type": 0,
+			"z_index": 0
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "资料代号 SDF884SD6F26Z66V6UYH2F4/77F    [pause=0.5]时间 2058年7月9日"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "今天是WBW投入生产的15周年纪念日。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "同时也意味着，第一批WBW机器人群体已经15周岁啦！"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "这十五年下来，还真印证了L博士的预言，在现实中生活过的机器人，更容易理解人类世界，同时也更受人类欢迎。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "机器艺术创作终于能够打动人心，而不再是令人费解的主题内图像文字编排重组。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "机器服务也能够细致入微，而不再是每一步的细节都需要人为解释。"
+		},
+		{
+			"character": "character-1659913614.json",
+			"event_id": "dialogic_001",
+			"portrait": "",
+			"text": "现在有一些WBW已经开始与人类一同进行科学研究、社会研究了，愿它们能为人类更进一步发展作出贡献吧！"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_down",
+			"text": "嗯？ "
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_down",
+			"text": "这里附有一张WBW型机器人的图片……？ "
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "eye_down",
+			"text": "……"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "happy",
+			"text": "好吧，原来我也是WBW型的机器人嘛~"
+		},
+		{
+			"character": "character-1659838820.json",
+			"event_id": "dialogic_001",
+			"portrait": "embarassed",
+			"text": "不过我怎么没觉得自己有那么厉害呢……[pause=0.5]话说科学和艺术又是啥来着……"
+		}
+	],
+	"metadata": {
+		"dialogic-version": "1.4.3",
+		"file": "timeline-1659916750.json",
+		"name": "memory2"
+	}
+}
