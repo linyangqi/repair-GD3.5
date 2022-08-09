@@ -15,6 +15,8 @@ onready var stage_changer = $"../StageChanger"
 onready var stage_height = stage_changer.stage_height
 onready var stage_width = stage_changer.stage_width
 onready var furniture = $"../Furniture"
+onready var signal_sound = $Sound/SignalSound
+
 
 
 
@@ -50,3 +52,4 @@ func _input(event):
 func _on_Sprite_animation_finished():
 	if sprite.animation == "signal":
 		signal_number += 1
+		signal_sound.playing = true
