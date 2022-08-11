@@ -27,7 +27,7 @@ __meta__ = {
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="Ground"]
 position = Vector2( -2, -26.3572 )
 scale = Vector2( 2.00934, 2.18237 )
-polygon = PoolVector2Array( -6.46979, 154.583, 34, 159, 172.694, 156.874, 190, 155, 216, 156, 221, 158, 255, 159, 283, 163, 320.006, 165.122, 336.429, 166.497, 337.922, 179.327, -5.47444, 179.327 )
+polygon = PoolVector2Array( -5.97211, 155.958, 34, 159, 172.694, 156.874, 190, 155, 216, 156, 221, 158, 255, 159, 283, 163, 321.001, 162.831, 336.927, 166.038, 337.922, 179.327, -5.47444, 179.327 )
 
 [node name="StageChanger" type="Node" parent="."]
 script = ExtResource( 3 )
@@ -203,7 +203,7 @@ password = [ 1, 1, 1 ]
 
 [node name="wbw" parent="." instance=ExtResource( 2 )]
 unique_name_in_owner = true
-position = Vector2( 29, 249 )
+position = Vector2( 21, 292 )
 run_max_speed = 100.0
 jump_max_height = 40.0
 jump_cut_height = 20.0

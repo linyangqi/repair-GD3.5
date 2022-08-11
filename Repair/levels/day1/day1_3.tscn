@@ -21,7 +21,7 @@ expand = true
 [node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
 position = Vector2( -2, -26.3572 )
 scale = Vector2( 2.00934, 2.18237 )
-polygon = PoolVector2Array( -6.46979, 154.583, 34, 159, 172.694, 156.874, 190, 155, 216, 156, 221, 158, 255, 159, 283, 163, 320.006, 165.122, 336.429, 166.497, 337.922, 179.327, -5.47444, 179.327 )
+polygon = PoolVector2Array( -5.47443, 157.79, 34, 159, 172.694, 156.874, 190, 155, 216, 156, 221, 158, 255, 159, 283, 163, 320.503, 163.747, 335.434, 165.122, 337.922, 179.327, -5.47444, 179.327 )
 
 [node name="StageChanger" type="Node" parent="."]
 script = ExtResource( 3 )

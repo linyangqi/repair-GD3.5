@@ -10,17 +10,6 @@
 			"question": "返回标题画面？"
 		},
 		{
-			"choice": "好的",
-			"condition": "",
-			"definition": "",
-			"event_id": "dialogic_011",
-			"value": ""
-		},
-		{
-			"change_scene": "res://menu/menu.tscn",
-			"event_id": "dialogic_041"
-		},
-		{
 			"choice": "等等，最后一关还没看呢！",
 			"condition": "",
 			"definition": "",
@@ -29,6 +18,17 @@
 		},
 		{
 			"change_scene": "res://levels/day1/day1_7.tscn",
+			"event_id": "dialogic_041"
+		},
+		{
+			"choice": "好的，退出吧",
+			"condition": "",
+			"definition": "",
+			"event_id": "dialogic_011",
+			"value": ""
+		},
+		{
+			"change_scene": "res://menu/menu.tscn",
 			"event_id": "dialogic_041"
 		},
 		{

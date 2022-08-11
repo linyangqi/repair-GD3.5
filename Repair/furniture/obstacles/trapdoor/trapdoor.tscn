@@ -5,9 +5,8 @@
 [ext_resource path="res://images/furniture/trapdoor/trapdoor_2.png" type="Texture" id=3]
 [ext_resource path="res://images/furniture/trapdoor/trapdoor_1.png" type="Texture" id=4]
 
-[sub_resource type="SegmentShape2D" id=2]
-a = Vector2( -32, 1 )
-b = Vector2( 34, 1 )
+[sub_resource type="RectangleShape2D" id=4]
+extents = Vector2( 35.5, 3 )
 
 [sub_resource type="SpriteFrames" id=3]
 animations = [ {
@@ -26,7 +25,8 @@ animations = [ {
 script = ExtResource( 2 )
 
 [node name="Collision" type="CollisionShape2D" parent="."]
-shape = SubResource( 2 )
+position = Vector2( 0.5, 0 )
+shape = SubResource( 4 )
 
 [node name="RemoteSwitch" parent="." instance=ExtResource( 1 )]
 position = Vector2( 2, -23 )

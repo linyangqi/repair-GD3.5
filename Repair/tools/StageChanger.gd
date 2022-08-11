@@ -37,6 +37,7 @@ func _on_wbw_arrive_right():
 		global.switching_stage = true
 		global.wbw_position = wbw.position + Vector2(-stage_width,0)
 		get_tree().change_scene(stage_right)
+	
 		
 func _on_wbw_arrive_above():
 	if stage_left != "":
